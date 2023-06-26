@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: STM32 asus, STM32, LIC=9WSKC-7UW4V-KPFZY-I91T3-0AQN1-6BDP3
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\Microcontroller\STM32F4\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\Microcontroller\STM32F4\天气与显示\USER\ATK_ESP8266.uvprojx
+Project File Date:  12/03/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(168): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+          OLED_ShowString(0,0, strlocation, 12);
+main.c(169): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                 OLED_ShowString(0,16, strweather, 12);
+main.c(170): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                 OLED_ShowString(60,16, strtemp, 12);
+main.c(172): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                 OLED_ShowString(0,32, strtime, 12);
+main.c(176): warning:  #111-D: statement is unreachable
+        cJSON_Delete(root);
+main.c(191): warning:  #940-D: missing return statement at end of non-void function "parse_now_weather"
+  }
+main.c(72): warning:  #177-D: variable "size" was declared but never referenced
+        u8 size = 0;
+main.c(73): warning:  #177-D: variable "len" was declared but never referenced
+        int len;
+main.c(74): warning:  #177-D: variable "res" was declared but never referenced
+        u8 res;
+main.c(75): warning:  #177-D: variable "temperature" was declared but never referenced
+        u8 temperature;
+main.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=32906 RO-data=7790 RW-data=4836 ZI-data=1226012  
+FromELF: creating hex file...
+"..\OBJ\ATK_ESP8266.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\Microcontroller\STM32F4\天气与显示\USER\RTE
+  D:\Microcontroller\STM32F4\MDK5\ARM\PACK\Keil\STM32F4xx_DFP\2.5.0
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
